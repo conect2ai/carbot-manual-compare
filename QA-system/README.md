@@ -12,7 +12,8 @@ The Question and Answer System is a system that combines LangChain and Large Lan
 ## 💻 How to Run
 
 1. Clone the repository from GitHub using the following command:
-```
+
+```bash
 git clone https://github.com/conect2ai/carbot-manual-compare.git
 ```
 
@@ -23,20 +24,23 @@ git clone https://github.com/conect2ai/carbot-manual-compare.git
 4. Create an API key in the OpenAI API. To do this, click on the `View API keys` option and create a new API key. Copy the `OPENAI_API_KEY` value from the key that was created.
 
 5. Go to `/backend/app` and create a `.env` file with the following structure, replacing `<YOUR_KEY>` with your key:
-```
+
+```bash
 QDRANT_HOST="<YOUR_KEY>"
 QDRANT_API_KEY="<YOUR_KEY>"
 OPENAI_API_KEY="<YOUR_KEY>"
 ```
 
 6. Still at `/backend/app`, create a virtual environment, and execute the following commands:
-```
+
+```bash
 pip install -r requirements.txt
 python main.py
 ```
 
 7. In other terminal, go to `/frontend` and execute the following commands to run the frontend:
-```
+
+```bash
 npm install
 npm start
 ```

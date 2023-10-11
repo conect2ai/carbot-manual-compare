@@ -1,4 +1,4 @@
-# carbot-manual-compare# Comparing Three AI-Powered Solutions for Car Manual Queries 🤖🚗
+# Comparing Three AI-Powered Solutions for Car Manual Queries 🤖🚗
 
 Welcome to the **Comparing Three AI-Powered Solutions for Car Manual Queries** project! This repository contains the codes and resources that have been used and adapted for the analysis and comparison of three leading AI-based solutions for answering technical questions related to car manuals in PDF format. Our goal is to help you make an informed decision about the best solution for your specific needs.
 

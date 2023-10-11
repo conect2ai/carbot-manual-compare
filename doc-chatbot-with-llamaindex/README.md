@@ -10,17 +10,17 @@ The Doc Chatbot with LlamaIndex is a chatbot that answers questions about a PDF 
 Follow the instructions below to run the Doc Chatbot with LlamaIndex application on your machine:
 
 1. Clone the repository to your local machine:
-```
+```bash
 git clone https://github.com/conect2ai/carbot-manual-compare.git
 ```
 
 2. Navigate to the cloned repository:
-```
+```bash
 cd carbot-manual-compare
 ```
 
 3. Enter the `doc-chatbot-with-llamaindex` folder:
-```
+```bash
 cd doc-chatbot-with-llamaindex
 ```
 
@@ -30,7 +30,7 @@ cd doc-chatbot-with-llamaindex
 
 6. In the same directory where the `index.py` file is located on your machine, create the `.env` file and paste the following code snippet, replacing `your-api-key` with the key you generated in step 5:
 
-```
+```bash
 OPENAI_API_KEY='your-api-key'
 ```
 
@@ -38,7 +38,7 @@ OPENAI_API_KEY='your-api-key'
 
 8. Run the `index.py` script, replacing the variable `query_str` with the question you wish to ask the chatbot.
 
-```
+```python
 from langchain.callbacks import get_openai_callback
 
 query_engine = index.as_query_engine()
